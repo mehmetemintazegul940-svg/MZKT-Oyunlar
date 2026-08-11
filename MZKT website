@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MZKT Oyunlar - Resmi Web Sitesi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 3px solid #ff0000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #ddd;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .card {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        h2 {
+            color: #ff4757;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .btn-youtube {
+            display: inline-block;
+            background-color: #ff0000;
+            color: #ffffff;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 15px;
+            transition: background 0.3s ease;
+        }
+        .btn-youtube:hover {
+            background-color: #cc0000;
+        }
+        .game-preview {
+            border: 2px dashed #444;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #252525;
+            margin-top: 15px;
+        }
+        .game-status {
+            color: #2ed573;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0a0a0a;
+            color: #777;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎮 MZKT OYUNLAR</h1>
+        <p>Mehmet & Zübeyir Resmi Topluluk ve Oyun Portalı</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="card">
+            <h2>📖 Hikayemiz</h2>
+            <p>
+                Biz <strong>Mehmet</strong> ve <strong>Zübeyir</strong>! Eğlenceli oyunlar oynamak, kendi oyunlarımızı geliştirmek ve harika bir topluluk oluşturmak amacıyla YouTube yolculuğumuza başladık. 
+            </p>
+            <p>
+                Şu an <strong>51 aboneye</strong> ulaştık! Sen de aramıza katılarak sayımızı artırmamıza ve bu macerada yanımızda olmamıza yardımcı olabilirsin.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>🎬 Videolarımıza Konuk Ol!</h2>
+            <p>Bizimle birlikte videolarda yer almak ve oyun oynamak ister misin?</p>
+            <ul>
+                <li>Kanalımıza abone ol!</li>
+                <li>Videolarımızın altına <strong>kaç yaşında olduğunu</strong> belirten bir yorum bırak!</li>
+            </ul>
+            <p>Aralarınızdan seçeceğimiz arkadaşlarımızla yeni videolarda birlikte oynayacağız!</p>
+        </div>
+
+        <div class="card">
+            <h2>🕹️ Oyunlar Bölümü</h2>
+            <p>Üzerinde çalıştığımız projeler ve kamera oyun sistemlerimiz:</p>
+            
+            <div class="game-preview">
+                <h3>🔦 Gece Kafesi (Kamera & Güvenlik Oyunu)</h3>
+                <p><em>"Patron gece kafeyi sana emanet etti ama havalandırmadan garip sesler geliyor..."</em></p>
+                <p><strong>Özellikler:</strong> Güvenlik kamerası kontrolü (CAM1), Işık/Kapı yönetimi, Güç kullanımı (Power Left).</p>
+                <p class="game-status">⏳ Oyunlar yapılıyor / Yapım aşamasında!</p>
+            </div>
+        </div>
+
+        <div class="card" style="text-align: center;">
+            <h2>🚀 Bize Destek Ol!</h2>
+            <p>Büyüyen ailemize katılmak ve yeni oyun videolarını kaçırmamak için abone olmayı unutma!</p>
+            <a href="https://www.youtube.com/@MZKT-q9g" target="_blank" class="btn-youtube">
+                ▶ YouTube Kanalına Abone Ol
+            </a>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; MZKT Oyunlar - Tüm Hakları Saklıdır.
+    </footer>
+
+</body>
+</html>
